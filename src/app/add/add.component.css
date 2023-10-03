@@ -1,0 +1,21 @@
+input {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: solid 1px #999;
+    margin: 5px;
+  }
+  input:focus{
+    outline: none;
+    color: #333;
+  }
+  input:hover{
+    border: solid 1px #1E88E5;
+  }
+  h3 {
+    color: white;
+  }
+  
+  p {
+    color: #333;
+  }
+  

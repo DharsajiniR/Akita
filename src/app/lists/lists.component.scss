@@ -1,0 +1,32 @@
+.list {
+    cursor: pointer;  
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .list-container {
+    padding: 0 8px;
+    display: flex;
+    border: solid 1px #333;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &:hover{
+      cursor: pointer;
+      .delete{
+        display: block;
+      }
+      border: solid 1px lightcoral;
+      border-radius: 3px;
+    }
+  }
+  
+  .delete {
+    height: 25px;  
+    display: none;
+  }
+  
+  .new-list {
+    margin-bottom: 20px;
+  }
+  

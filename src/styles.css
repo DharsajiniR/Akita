@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+
+h3, p, input, span, label {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 7px 10px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: lightcoral;
+    color: white;
+    font-weight: 500;
+  }
+  
+  button:hover{
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:focus{
+    outline: none;
+  }
+  
+  body {
+    background: #333;  
+  }
+  
